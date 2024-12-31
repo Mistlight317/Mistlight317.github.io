@@ -1,0 +1,79 @@
+
+/* STYLE SECTIONING TAGS */
+body {
+ background-color: #FFE1A8;
+ text-align: left;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ margin:0px;
+}
+
+main {
+  color: black;
+  margin-left:23%;
+  margin-right:23%;
+  
+}
+div {
+  display:inline-block;
+  margin-right:10%;
+  margin-bottom: 0px;
+  text-align: center;
+  vertical-align: text-top;
+}
+div p {
+  margin-top:5px;
+  max-width: 400px;
+}
+
+/* STYLE TEXT */
+h1 {
+  font-size:40px;
+  line-height: 100%;
+}
+#freetime {
+  margin-bottom:5px;
+}
+.hobby h2 {
+  margin-top:15px;
+  margin-bottom:10px;
+}
+h2 {
+  font-size: 30px;
+}
+p {
+  font-size: 20px;
+}
+
+/* STYLE IMAGES */
+img {
+  width:300px;
+  border-style: solid;
+  border-width: 6px;
+  border-color:#723D46;
+  border-radius: 0%;
+}
+
+#leopardwebsite {
+  width: 100%;
+  border-width: 0px;
+}
+/* STYLE NAV BAR */
+nav {
+  background-color: #723D46;
+  padding-left:22.6%;
+  padding-right:22.6%;
+  overflow:auto;
+  
+}
+nav a {
+  display:inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  margin-right: 20px;
+  padding: 10px;
+  text-shadow: 3px 3px 3px black;
+}
+nav a:hover {
+  background-color: rgb(134,81,90);
+}
